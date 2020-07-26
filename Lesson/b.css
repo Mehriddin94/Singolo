@@ -178,7 +178,7 @@ body, h1, h2, h4, ul, p{
     background: url(phone.png) no-repeat 0 0px;
 }
 .left-button {
-    background-image: url(###.png);
+    background-image: url(arrows.png);
     position: absolute;
     left: 42px;
     top: 280px;
@@ -187,7 +187,7 @@ body, h1, h2, h4, ul, p{
     z-index: 77;
 }
 .right-button {
-    background-image: url(###.png);
+    background-image: url(arrows.png);
     transform: rotate(180deg);
     position: absolute;
     left: 964px;
@@ -198,10 +198,10 @@ body, h1, h2, h4, ul, p{
 }
 .left-button:hover{
     cursor: pointer;
-    background-image: url(left.png);
+    background-image: url(black_ar.png);
 }
 .right-button:hover{
     cursor: pointer;
-    background-image: url(left.png);
+    background-image: url(black_ar.png);
 }
 
