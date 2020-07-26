@@ -154,31 +154,31 @@ body, h1, h2, h4, ul, p{
     margin-right: -20px;
 }
 #heart{
-    background: url(heart.png) no-repeat 0 0px;
+    background: url(Assets/heart.png) no-repeat 0 0px;
 
 }
 
 #star {
-    background: url(star.png) no-repeat 0 0px;
+    background: url(Assets/star.png) no-repeat 0 0px;
 }
 
 #lamp {
-    background: url(lamp.png) no-repeat 0 0px;
+    background: url(Assets/lamp.png) no-repeat 0 0px;
 }
 
 #pencil {
-    background: url(pencil.png) no-repeat 0 0;
+    background: url(Assets/pencil.png) no-repeat 0 0;
 }
 
 #chat {
-    background: url(chat.png) no-repeat 0 0px;
+    background: url(Assets/chat.png) no-repeat 0 0px;
 }
 
 #phone{
-    background: url(phone.png) no-repeat 0 0px;
+    background: url(Assets/phone.png) no-repeat 0 0px;
 }
 .left-button {
-    background-image: url(arrows.png);
+    background-image: url(Assets/arrows.png);
     position: absolute;
     left: 42px;
     top: 280px;
@@ -187,7 +187,7 @@ body, h1, h2, h4, ul, p{
     z-index: 77;
 }
 .right-button {
-    background-image: url(arrows.png);
+    background-image: url(Assets/arrows.png);
     transform: rotate(180deg);
     position: absolute;
     left: 964px;
@@ -198,10 +198,10 @@ body, h1, h2, h4, ul, p{
 }
 .left-button:hover{
     cursor: pointer;
-    background-image: url(black_ar.png);
+    background-image: url(Assets/black_ar.png);
 }
 .right-button:hover{
     cursor: pointer;
-    background-image: url(black_ar.png);
+    background-image: url(Assets/black_ar.png);
 }
 
