@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 body, h1, h2, h4, ul, p{
-    margin:0;
+    /*margin:0;*/
     padding: 0;
     font-family: "Lato";
 
 }
-#header{
+.header{
     background-color: #2d303a;
     border-bottom: 7px solid #323746;
     width: 100%;
@@ -15,13 +15,13 @@ body, h1, h2, h4, ul, p{
     overflow: hidden;
     position: relative;
     }
-.basic{
+.header .basic{
     max-width: 1200px;
     min-width: 1020px;
     background: transparent;
     position: relative;
 }
-#header h1{
+.header h1{
     color:#fff;
     font-family: "Lato";
     float:left;
@@ -30,22 +30,22 @@ body, h1, h2, h4, ul, p{
     font-size: 25px;
     text-transform: uppercase; 
 }
-#header .logo{
+.header .logo{
     color: coral;
     
 }
-#header .navbar{
+.header .navbar{
     float:right;
     margin-top: 40px;
     margin-right: 20px;
 }
-.navbar li{
+.header .navbar li{
     display: inline;
     text-transform: uppercase;
     margin:25px 13px;
     font-family: "Lato";
     }
-.navbar li a{
+.header .navbar li a{
     text-decoration: none;
     color:#fff;
     font-family: sans-serif;
@@ -53,14 +53,14 @@ body, h1, h2, h4, ul, p{
     font-size: 12px;
 
     }
-    .navbar .active a{
+.header .navbar .active a{
     color: #f06c64;
 }
-    .navbar li a:hover{
-        color:coral;
-    }
+.header .navbar li a:hover{
+    color:coral;
+}
 
-#banner{
+.banner{
     width: 100%;
     height: 594px;
     background: #eb5054;
@@ -70,22 +70,19 @@ body, h1, h2, h4, ul, p{
     border-bottom: 6px solid #ea676b;
   
 }
-#banner ul{
+.banner ul{
     list-style-type: none;
     margin: 0 0 26px 0;
     padding: 30px 43px;
     background: transparent;
 }
-#banner .container{
-    max-width: 1200px;
+.banner .basic{
+    max-width: 940px;
     background: transparent;
     position: relative;
     align-items: center;
-}
-#banner .container{
     display: flex;
-    width: 100%;
-}
+ }
 .flexslider{
     display: flex;
     flex-wrap: wrap;
@@ -163,40 +160,41 @@ body, h1, h2, h4, ul, p{
     margin-right: -20px;
 }
 #heart{
-    background: url(Assets/heart.png) no-repeat 0 0px;
+    background: url(assets/heart.png) no-repeat 0 0px;
 
 }
 
 #star {
-    background: url(Assets/star.png) no-repeat 0 0px;
+    background: url(assets/star.png) no-repeat 0 0px;
 }
 
 #lamp {
-    background: url(Assets/lamp.png) no-repeat 0 0px;
+    background: url(assets/lamp.png) no-repeat 0 0px;
 }
 
 #pencil {
-    background: url(Assets/pencil.png) no-repeat 0 0;
+    background: url(assets/pencil.png) no-repeat 0 0;
 }
 
 #chat {
-    background: url(Assets/chat.png) no-repeat 0 0px;
+    background: url(assets/chat.png) no-repeat 0 0px;
 }
 
 #phone{
-    background: url(Assets/phone.png) no-repeat 0 0px;
+    background: url(assets/phone.png) no-repeat 0 0px;
 }
 .left-button {
-    background-image: url(Assets/arrows.png);
+    background-image: url(assets/arrows.png);
     position: absolute;
     left: 42px;
     top: 280px;
     width: 16px;
     height: 27px;
     z-index: 77;
+    display: flex;
 }
 .right-button {
-    background-image: url(Assets/arrows.png);
+    background-image: url(assets/arrows.png);
     transform: rotate(180deg);
     position: absolute;
     left: 964px;
@@ -204,16 +202,18 @@ body, h1, h2, h4, ul, p{
     width: 16px;
     height: 27px;
     z-index: 76;
+    display: flex;
 }
 .left-button:hover{
     cursor: pointer;
-    background-image: url(Assets/black_ar.png);
+    background-image: url(assets/black_ar.png);
 }
 .right-button:hover{
     cursor: pointer;
-    background-image: url(Assets/black_ar.png);
+    background-image: url(assets/black_ar.png);
 }
-/*Singolo2 Css*/
+
+/*Portfolio*/
 .portfolio{
     background-color: #2d2f39;
     border-bottom: 6px solid #313745;
@@ -223,7 +223,7 @@ body, h1, h2, h4, ul, p{
     justify-content: center;
 
 }
-.portfolio .container{
+.main{
     min-width: 940px;
     max-width: 1020px;
     background-color: transparent;
@@ -231,14 +231,14 @@ body, h1, h2, h4, ul, p{
     padding: 38px 0;
 
 }
-.text h2{
+.main .text h2{
     font-size: 30px;
     font-weight: bold;
 }
 .portfolio .text h2{
     color: #666d89;
 }
-.text p, .portfolio a{
+.main .text p, .portfolio a{
     color: #767e9e;
 }
 .portfolio ul {
@@ -246,7 +246,7 @@ body, h1, h2, h4, ul, p{
     padding: 0px;
     list-style-type: none;
 }
-a{
+.portfolio a{
     text-decoration: none;
 }
 .portfolio .navbar li{
@@ -263,10 +263,10 @@ a{
 .portfolio .active{
     color: #fff;
 }
-.portfolio .box{
+.portfolio .box_one{
     margin-top: 20px;
 }
-.portfolio  .box ul li{
+.portfolio  .box_one ul li{
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -281,10 +281,10 @@ a{
     justify-content: center;
     padding: 3px 0;
 }
-.about-us .box{
+.about-us .box_one{
     margin-top: 55px;
 }
-.about-us .box ul li{
+.about-us .box_one ul li{
     float: left;
     margin-right: 21px;
     margin-bottom: 10px;
@@ -293,14 +293,14 @@ a{
 .about-us .text h2{
     color: #666d89;
 }
-.portfolio .box ul{
+.box_one ul{
     list-style-type: none;
     padding: 0;
 }
 .about-us .icon img{
-    margin-right: 12px;
+    margin-right: 7px;
 }
-/*singolo3.Css*/
+/*Form*/
 .connect_us{
     background-color: #ef6b63;
     border-bottom: 6px solid #e9676b;
@@ -311,17 +311,18 @@ a{
     justify-content: center;
     padding-top: 22px;
 }
-.portfolio .container{
+.connect_us .fundamental{
     max-width: 1020px;
     min-width: 940px;
 
 }
-.portfolio .container h1{
+.connect_us .fundamental h1{
     color: #f0d8d9;
     padding: 15px 0 0 0;
     display: block;
 }
-.connect_us p{
+
+.fundamental p{
     color: #f0d8d9;
     display: block;
     line-height: 1.6;
@@ -331,7 +332,7 @@ a{
     float: left;
     
 }
-.portfolio .box{
+.case{
     margin-top: 48px;
 }
 .form input, button{
@@ -358,20 +359,20 @@ button{
     border-radius: 5px;
     background-color: #d6564f;
 }
-.form .info{
+.inf{
     width: 340px;
     float:right;
     color: #f0d8d9;
     margin-right: 40px;
 }
-.info h2{
+.inf h2{
     margin:0;
     font-size: 18px;
 }
-.form .info p{
+.inf p{
     font-size: 11px;
 }
-.connect_us img{
+.image img{
     width: 15px;
     height: 15px;
     margin-top: 10px;
@@ -389,14 +390,14 @@ button{
     display: flex;
     justify-content: center; 
 }
-.footer .left{
+.left{
     float:left;
     margin-top: 24px;
     margin-left: -37px;
     font-size: 12px;
     color: #f0d8d9;
 }
-.footer  .right{
+.right{
     float:right;
 }
 .right img{

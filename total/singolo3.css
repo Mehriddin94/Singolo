@@ -14,17 +14,18 @@ body, html{
     justify-content: center;
     padding-top: 22px;
 }
-.container{
+.connect_us .fundamental{
 	max-width: 1020px;
 	min-width: 940px;
 
 }
-.container h1{
+.connect_us .fundamental h1{
 	color: #f0d8d9;
 	padding: 15px 0 0 0;
 	display: block;
 }
-p{
+
+.fundamental p{
 	color: #f0d8d9;
 	display: block;
 	line-height: 1.6;
@@ -34,7 +35,7 @@ p{
 	float: left;
 	
 }
-.box{
+.case{
 	margin-top: 48px;
 }
 .form input, button{
@@ -61,20 +62,20 @@ button{
 	border-radius: 5px;
 	background-color: #d6564f;
 }
-.info{
+.inf{
 	width: 340px;
 	float:right;
 	color: #f0d8d9;
 	margin-right: 40px;
 }
-.info h2{
+.inf h2{
 	margin:0;
 	font-size: 18px;
 }
-.info p{
+.inf p{
 	font-size: 11px;
 }
-img{
+.image img{
 	width: 15px;
 	height: 15px;
 	margin-top: 10px;
