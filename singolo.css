@@ -15,7 +15,7 @@ body, h1, h2, h4, ul, p{
     overflow: hidden;
     position: relative;
     }
-.container{
+.basic{
     max-width: 1200px;
     min-width: 1020px;
     background: transparent;
@@ -34,7 +34,7 @@ body, h1, h2, h4, ul, p{
     color: coral;
     
 }
-.navbar{
+#header .navbar{
     float:right;
     margin-top: 40px;
     margin-right: 20px;
@@ -223,7 +223,7 @@ body, h1, h2, h4, ul, p{
     justify-content: center;
 
 }
-.container{
+.portfolio .container{
     min-width: 940px;
     max-width: 1020px;
     background-color: transparent;
@@ -293,12 +293,12 @@ a{
 .about-us .text h2{
     color: #666d89;
 }
-.box ul{
+.portfolio .box ul{
     list-style-type: none;
     padding: 0;
 }
 .about-us .icon img{
-    margin-right: 7px;
+    margin-right: 12px;
 }
 /*singolo3.Css*/
 .connect_us{
@@ -311,17 +311,17 @@ a{
     justify-content: center;
     padding-top: 22px;
 }
-.container{
+.portfolio .container{
     max-width: 1020px;
     min-width: 940px;
 
 }
-.container h1{
+.portfolio .container h1{
     color: #f0d8d9;
     padding: 15px 0 0 0;
     display: block;
 }
-p{
+.connect_us p{
     color: #f0d8d9;
     display: block;
     line-height: 1.6;
@@ -331,7 +331,7 @@ p{
     float: left;
     
 }
-.box{
+.portfolio .box{
     margin-top: 48px;
 }
 .form input, button{
@@ -358,7 +358,7 @@ button{
     border-radius: 5px;
     background-color: #d6564f;
 }
-.info{
+.form .info{
     width: 340px;
     float:right;
     color: #f0d8d9;
@@ -368,10 +368,10 @@ button{
     margin:0;
     font-size: 18px;
 }
-.info p{
+.form .info p{
     font-size: 11px;
 }
-img{
+.connect_us img{
     width: 15px;
     height: 15px;
     margin-top: 10px;
@@ -389,14 +389,14 @@ img{
     display: flex;
     justify-content: center; 
 }
-.left{
+.footer .left{
     float:left;
     margin-top: 24px;
     margin-left: -37px;
     font-size: 12px;
     color: #f0d8d9;
 }
-.right{
+.footer  .right{
     float:right;
 }
 .right img{
